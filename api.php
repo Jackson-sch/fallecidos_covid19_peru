@@ -10,8 +10,8 @@ ini_set('memory_limit', '1024M');
 $collection = $db->FALLECIDO_HOSP_VAC;
 
 // Mostramos todos los documentos de la coleccion en un array asociativo (cursor)
-//$cursor = $collection->find(array());
-$cursor = $collection->find(array(), array('limit' => 1000));
+$cursor = $collection->find(array());
+//$cursor = $collection->find(array(), array('limit' => 1000));
 
 
 // Imprimimos los documentos de la coleccion FALLECIDO_HOSP_VAC en formato JSON (cursor)
