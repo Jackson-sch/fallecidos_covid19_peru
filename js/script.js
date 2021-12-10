@@ -1,4 +1,4 @@
-fetch('http://localhost/Fallecidos_Hosp_Vac/api.php')
+fetch('https://api-data-peru.herokuapp.com/api.php')
     .then(response => response.json())
     .then(data => printCharts(data)) // printCharts(data)
 
