@@ -26,7 +26,7 @@
         </div>
         <div class="row">
             <div class="col-12">
-                <a class="btn btn-outline-primary float-end" href="index.php" role="button"><i class="bi bi-bar-chart-line"></i> Previsualizar</a>
+                <a class="btn btn-outline-primary float-end" href="prev.php" role="button"><i class="bi bi-bar-chart-line"></i> Previsualizar</a>
             </div>
         </div>
         <div class="row mt-2">
